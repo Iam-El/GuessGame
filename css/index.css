@@ -1,0 +1,57 @@
+body {
+    width: 80%;
+    margin: 50px;
+    font-family: AppleGothic;
+    text-align: center;
+}
+
+.header {
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.main-content {
+    font-size: 25px;
+
+}
+
+.main-form {
+    color: black;
+    font-size: 25px;
+}
+
+.main-input {
+    width: 28%;
+    height: 40px;
+    border-color: red;
+    padding: 5px;
+
+
+}
+
+button {
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    /*height: 40px;*/
+    /*margin-left: 25%;*/
+    width: 10%;
+    padding: 14px;
+    font-size: 20px;
+
+
+}
+.my-style{
+    background-color: lightsalmon;
+}
+
+.error{
+    color: red;
+    display: none;
+}
+
+.guess-class{
+    color: red;
+
+}

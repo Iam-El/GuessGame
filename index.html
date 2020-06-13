@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+<h1 class="header">Welcome To My Page</h1>
+<p class="main-content">Please Guess the number between 1 to 10. Lets Do It!!!</p>
+<form class="main-form">
+    <label>Enter Your Number Here: <span class="error">*This field is Reuired!!</span></label>
+    <div>
+    <input type="text" placeholder="Enter Number" class="main-input" id="text-id">
+    <button type="button" onclick="guessGame()" class="main-button" > SUBMIT</button>
+    </div>
+</form>
+
+<script src="js/index.js"></script>
+<div class="Result">
+    <h3>You guessed:</h3>
+    <p class="guess-class"></p>
+</div>
+</body>
+</html>
